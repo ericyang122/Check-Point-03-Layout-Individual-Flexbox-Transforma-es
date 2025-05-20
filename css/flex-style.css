@@ -1,4 +1,4 @@
-/* Reset básico */
+
 * {
   margin: 0;
   padding: 0;
@@ -21,9 +21,16 @@ body {
   text-align: center;
 }
 
+.nav {
+  margin-top: 1rem;
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .nav a {
   color: white;
-  margin-left: 1.5rem;
   text-decoration: none;
   font-weight: bold;
   transition: color 0.3s;
@@ -31,8 +38,9 @@ body {
 
 .nav a:hover {
   color: #ffcccb;
+  transform: rotate(5deg);
+  transition: color 0.3s, transform 0.3s;
 }
-
 .main {
   padding: 2rem;
   display: flex;
@@ -72,7 +80,7 @@ body {
 }
 
 .card:hover {
-  transform: scale(1.05);
+  transform: scale(1.05) translateY(-5px);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
 }
 
