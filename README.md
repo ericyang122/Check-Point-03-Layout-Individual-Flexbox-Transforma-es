@@ -17,4 +17,4 @@ Projeto desenvolvido para o Checkpoint 03 da disciplina de Front-End.
 ## Links
 
 - GitHub: https://github.com/ericyang122/Check-Point-03-Layout-Individual-Flexbox-Transforma-es.git
-- GitHub Pages: 
+- GitHub Pages: https://ericyang122.github.io/Check-Point-03-Layout-Individual-Flexbox-Transforma-es/
